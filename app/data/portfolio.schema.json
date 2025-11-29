@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portfolio Items",
+  "description": "Schema for portfolio item data (addons, artworks, web projects)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title", "description", "externalLink", "images"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the portfolio item (used for image folder naming)",
+        "pattern": "^[a-zA-Z0-9_-]+$"
+      },
+      "title": {
+        "type": "string",
+        "description": "Display title for the portfolio card",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string",
+        "description": "Brief description of the project",
+        "minLength": 1
+      },
+      "externalLink": {
+        "type": "string",
+        "description": "URL to the external project page",
+        "format": "uri"
+      },
+      "tags": {
+        "type": "array",
+        "description": "Tags/categories for filtering and display",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uniqueItems": true
+      },
+      "images": {
+        "type": "array",
+        "description": "Gallery images - first image is used as thumbnail",
+        "items": {
+          "type": "string",
+          "pattern": "^/images/"
+        },
+        "minItems": 1
+      },
+      "badge": {
+        "type": "string",
+        "description": "Badge text displayed on the card (e.g., 'Created', 'Maintained', 'Animation')"
+      }
+    }
+  }
+}

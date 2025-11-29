@@ -1,0 +1,96 @@
+[
+  {
+    "id": "CloneCore",
+    "title": "CloneCore Portfolio BTS",
+    "description": "The Behind the scenes blog-style page for CloneCore",
+    "externalLink": "/behind-clonecore",
+    "tags": ["Web Design", "Portfolio", "Blog"],
+    "images": [
+      "/images/CloneCore/CloneCoreBTS.png"
+    ],
+    "badge": "Created"
+  },
+  {
+    "id": "dtga-wiki",
+    "title": "Dangerous to Go Alone Wiki",
+    "description": "A complete website designed and built for the Dangerous to Go Alone mod for Breath of the Wild.",
+    "externalLink": "https://clonephaze.github.io/DtgA-Redone/",
+    "tags": [
+      "Web Design",
+      "Wiki",
+      "Gaming"
+    ],
+    "images": [
+      "/images/web-projects/DtgA/Screenshot 2025-11-24 at 11-19-31 Home Dangerous to go Alone Wiki Mod for BOTW.png",
+      "/images/web-projects/DtgA/Screenshot 2025-11-24 at 11-19-40 New Mechanics Dangerous to go Alone Wiki Mod for BOTW.png",
+      "/images/web-projects/DtgA/Screenshot 2025-11-24 at 11-20-21 Items Dangerous to go Alone Wiki Mod for BOTW.png"
+    ],
+    "badge": "Designed & Built"
+  },
+  {
+    "id": "3DExperiments",
+    "title": "3D Experiments",
+    "description": "My first 3d web project, showcasing various 3D experiments using Three.js and WebGL. Purely for learning purposes.",
+    "externalLink": "https://clonephaze.github.io/ThreeJsExpirements/#Home",
+    "tags": [
+      "Web Design",
+      "Three.js",
+      "WebGL"
+    ],
+    "images": [
+      "/images/web-projects/3D Experiments/Screenshot 2025-11-23 at 23-59-07 Home.png",
+      "/images/web-projects/3D Experiments/Screenshot 2025-11-23 at 23-59-27 Home.png"
+    ],
+    "badge": "Designed & Built"
+  },
+  {
+    "id": "spaceTourism",
+    "title": "Space Tourism Landing Page",
+    "description": "A futuristic landing page design for a space tourism company, showcasing destinations and crew information.",
+    "externalLink": "https://clonephaze.github.io/space-tourism-website-main/",
+    "tags": [
+      "Web Design",
+      "Futuristic",
+      "Landing Page"
+    ],
+    "images": [
+      "/images/web-projects/Space Tourism Site/Screenshot 2025-11-23 at 23-56-52 So you want to travel to Space.png",
+      "/images/web-projects/Space Tourism Site/Screenshot 2025-11-23 at 23-57-01 .png"
+    ],
+    "badge": "Created"
+  },
+  {
+    "id": "ClonesCalc",
+    "title": "Clone's Calc",
+    "description": "A custom take on an old challenge, my own design and theme for a calculator app built with HTML, CSS, and JavaScript.",
+    "externalLink": "https://clonephaze.github.io/Clones-Calc/",
+    "tags": [
+      "JavaScript",
+      "Calculator",
+      "App"
+    ],
+    "images": [
+      "/images/web-projects/Clones Calc/Screenshot 2025-11-23 at 23-51-08 Clone's Calculator app.png",
+      "/images/web-projects/Clones Calc/Screenshot 2025-11-23 at 23-51-16 Clone's Calculator app.png",
+      "/images/web-projects/Clones Calc/Screenshot 2025-11-23 at 23-51-26 Clone's Calculator app.png",
+      "/images/web-projects/Clones Calc/Screenshot 2025-11-23 at 23-53-45 Clone's Calculator app.png"
+    ],
+    "badge": "Designed & Built"
+  },
+  {
+    "id": "rpsls",
+    "title": "Rock Paper Scissors Lizard Spock",
+    "description": "A fun web-based game inspired by The Big Bang Theory, featuring the extended version of the classic game.",
+    "externalLink": "https://clonephaze.github.io/RockPaperScissors/",
+    "tags": [
+      "JavaScript",
+      "Game",
+      "Interactive"
+    ],
+    "images": [
+      "/images/web-projects/RPSLS/Screenshot 2025-11-23 at 23-49-19 Frontend Mentor Rock Paper Scissors.png",
+      "/images/web-projects/RPSLS/Screenshot 2025-11-23 at 23-50-17 Frontend Mentor Rock Paper Scissors.png"
+    ],
+    "badge": "Created"
+  }
+]

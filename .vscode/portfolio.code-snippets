@@ -1,0 +1,28 @@
+{
+  "New Portfolio Item": {
+    "scope": "json",
+    "prefix": "portfolio-item",
+    "description": "Add a new portfolio item entry",
+    "body": [
+      "{",
+      "  \"id\": \"$1\",",
+      "  \"title\": \"$2\",",
+      "  \"description\": \"$3\",",
+      "  \"externalLink\": \"$4\",",
+      "  \"tags\": [\"$5\"],",
+      "  \"images\": [",
+      "    \"/images/${6|addons,art,web-projects|}/$1/$7\"",
+      "  ],",
+      "  \"badge\": \"${8|Created,Maintained,Updated & Maintained,Designed & Built,Animation,Render,Procedural,Stylized|}\"",
+      "}"
+    ]
+  },
+  "Portfolio Image Path": {
+    "scope": "json",
+    "prefix": "portfolio-image",
+    "description": "Add an image path for portfolio gallery",
+    "body": [
+      "\"/images/${1|addons,art,web-projects|}/${2:project-id}/${3:filename}\""
+    ]
+  }
+}

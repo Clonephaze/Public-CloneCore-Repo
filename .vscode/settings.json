@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "app/data/addons.json",
+        "app/data/artworks.json",
+        "app/data/webProjects.json"
+      ],
+      "url": "./app/data/portfolio.schema.json"
+    }
+  ]
+}

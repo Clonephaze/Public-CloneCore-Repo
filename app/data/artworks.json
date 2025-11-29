@@ -1,0 +1,106 @@
+[
+  {
+    "id": "logo-animation",
+    "title": "My Logo - Unfolding Animation",
+    "description": "The second thing I ever made in Blender. Features keyframing, shape keys, Geometry Nodes, and shader tricks for a shimmer effect.",
+    "externalLink": "https://www.artstation.com/artwork/gRWAbK",
+    "tags": [
+      "Blender",
+      "Animation",
+      "Logo Design"
+    ],
+    "images": [
+      "/images/art/Logo/New Render.png",
+      "/images/art/Logo/LogoRender4k.png"
+    ],
+    "badge": "Animation"
+  },
+  {
+    "id": "Arcane-Fluorescence",
+    "title": "Arcane Fluorescence ",
+    "description": "A bioluminescent fantasy inspired by Digital Blasphemy. Features glowing mushrooms and plants with animated shaders in Blender.",
+    "externalLink": "https://www.artstation.com/artwork/oJVlKm",
+    "tags": [
+      "Blender",
+      "3D Render",
+      "Fantasy"
+    ],
+    "images": [
+      "/images/art/Mushrooms/Final-Full2k1920x1080gg.png",
+      "/images/art/Mushrooms/LayoutCaveArrangement.png",
+      "/images/art/Mushrooms/EditMushroomLocal.png"
+    ],
+    "badge": "Render"
+  },
+  {
+    "id": "dragon-ball",
+    "title": "Dragon Ball Render",
+    "description": "A high-quality 8K render of realistic Dragon Balls with a deep amber material instead of typical glass.",
+    "externalLink": "https://www.artstation.com/artwork/L4Gk5l",
+    "tags": [
+      "Blender",
+      "3D Render",
+      "Realistic"
+    ],
+    "images": [
+      "/images/art/DragonBall/DragonBallSet8kFinalScaled.png",
+      "/images/art/DragonBall/DragonBall2k.png",
+      "/images/art/DragonBall/DragonballsSceneblend.png"
+    ],
+    "badge": "Render"
+  },
+  {
+    "id": "procedural-donut",
+    "title": "Procedural Geometry Nodes Donut",
+    "description": "A fully customizable procedural donut made in Blender 4.5 using Geometry Nodes with extensive customization options.",
+    "externalLink": "https://www.artstation.com/artwork/ZlWNX8",
+    "tags": [
+      "Blender",
+      "Geometry Nodes",
+      "Procedural"
+    ],
+    "images": [
+      "/images/art/Donut/Falling Donuts 4kO.webp",
+      "/images/art/Donut/Plate of DonutsDS1080.png",
+      "/images/art/Donut/Geometry nodes Donut Pro.png"
+    ],
+    "badge": "Procedural"
+  },
+  {
+    "id": "Pumpkins",
+    "title": "Stylized Pumpkins",
+    "description": "It's pumpkin season in blender 🎃",
+    "externalLink": "https://www.artstation.com/artwork/3EGlro",
+    "tags": [
+      "Blender",
+      "Stylized",
+      "Seasonal"
+    ],
+    "images": [
+      "/images/art/Pumpkins/3pumpkinscarved2k.png",
+      "/images/art/Pumpkins/NormalPumpkin4kSquare2.png",
+      "/images/art/Pumpkins/ShortPumpkin4kSquare.png",
+      "/images/art/Pumpkins/TalllPumpkin4kSquare.png"
+    ],
+    "badge": "Stylized"
+  },
+  {
+    "id": "clone-cores-sprites",
+    "title": "Clone Core's Sprites",
+    "description": "I made these sprites of myself using Pixelorama and a few different reference images.",
+    "externalLink": "https://www.artstation.com/artwork/AZxN6y",
+    "tags": [
+      "Pixelorama",
+      "Pixel Art",
+      "Self-Portrait"
+    ],
+    "images": [
+      "/images/art/clone-cores-sprites/JackSmaller.png",
+      "/images/art/clone-cores-sprites/JackSmallerContrast.png",
+      "/images/art/clone-cores-sprites/JackSmallerLight.png",
+      "/images/art/clone-cores-sprites/JackSmallerSepia.png",
+      "/images/art/clone-cores-sprites/Jack.png"
+    ],
+    "badge": "Pixel"
+  }
+]
