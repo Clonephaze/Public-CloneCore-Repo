@@ -75,44 +75,6 @@ This keeps the repo portable, version-controlled, and clean.
 
 ---
 
-## File Structure Overview
-Below is a high-level snapshot of the organization.
-
-(**Note: some sections may need to be filled in by you as you refine the codebase.**)
-
-```bash
-├── assets
-│   ├── scss           # Global styling, theme maps, utilities
-│   ├── sprites        # Pixel art sprites by theme
-│   └── media          # Images, backgrounds
-├── components
-│   ├── ui             # Buttons, cards, inputs, modals
-│   ├── layout         # Header, footer, shell components
-│   └── content        # Portfolio-specific components
-├── composables
-│   ├── useTheme.ts    # Theme resolution + palette tools
-│   ├── useContent.ts  # Load portfolio/content JSON
-│   └── useAdmin.ts    # Auth flows + GitHub interactions
-├── public
-│   └── sprites        # Optimized sprite exports
-├── server
-│   ├── api            # Auth + content update routes
-│   └── utils          # GitHub API + PR utilities
-├── content
-│   ├── portfolio.json # Main portfolio data
-│   ├── themes.json    # Theme definitions
-│   └── sprites.json   # Sprite mappings
-├── pages
-│   ├── index.vue
-│   ├── behind.vue
-│   └── admin
-│       ├── index.vue
-│       └── edit.vue
-└── nuxt.config.ts
-```
-
----
-
 ## Theme Engine
 The theme engine is one of the core systems of CloneCore.
 
@@ -196,49 +158,9 @@ Accessibility is built in:
 - Keyboard navigability
 - ARIA labels
 - High-contrast dark theme
-- Reduced motion options (optional future feature)
+- Reduced motion options
 
 Sprite descriptions are intentionally included for screen readers.
-
----
-
-## Future Roadmap (Fill These In)
-This section is here for you to edit as the project evolves.
-
-### Planned
-- [ ] Searchable blog system
-- [ ] Additional sprite animations
-- [ ] Theme presets for users
-- [ ] Extra admin panel features
-- [ ] API for external integrations
-
-### Long-Term Ideas
-- [ ] Asset CDN
-- [ ] Public theme builder
-- [ ] Multi-user admin roles
-
----
-
-## Local Development
-Install dependencies:
-```bash
-pnpm install
-```
-
-Run dev server:
-```bash
-pnpm dev
-```
-
-Generate static site:
-```bash
-pnpm generate
-```
-
----
-
-## Contributing
-This is primarily a personal portfolio ecosystem, but pull requests for improvements are welcome — especially around accessibility, DX, and performance.
 
 ---
 
